@@ -1,0 +1,15 @@
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.deps.json
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.dll
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csprojAssemblyReference.cache
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\ContactsPage.xaml.g.cs
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfoInputs.cache
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfo.cs
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csproj.CoreCompileInputs.cache
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.dll
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\ref\Contacts.dll
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.pdb
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\ref\Contacts.dll
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.pdb
+C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\XamlC.stamp
