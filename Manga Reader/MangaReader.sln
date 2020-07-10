@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaReader.Android", "Manga Reader\Manga Reader.Android\MangaReader.Android.csproj", "{FF750094-B97B-4412-BD20-D37F04765E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaReader", "Manga Reader\Manga Reader\MangaReader.csproj", "{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF750094-B97B-4412-BD20-D37F04765E55}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813FCE4F-6DE4-4E15-9CF1-55AC950FD758}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2350E73-329C-4B1A-AD92-70B2BFFB3EBA}
+	EndGlobalSection
+EndGlobal
