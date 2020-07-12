@@ -13,3 +13,4 @@ C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Re
 C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\MangaReader.dll
 C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\ref\MangaReader.dll
 C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\MangaReader.pdb
+C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\ChapterView.xaml.g.cs

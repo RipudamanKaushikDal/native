@@ -13,21 +13,19 @@ namespace MangaReader
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SearchPage : ContentPage
     {
-        public List<SearchViewModel> searchResults = new List<SearchViewModel>();
 
+        
         public SearchPage()
         {
             InitializeComponent();
+            BindingContext = new SearchViewModel();
+
         }
-        private async void searchBar_SearchButtonPressed(object sender, EventArgs e)
+
+        private void MangaSearch_SearchButtonPressed(object sender, EventArgs e)
         {
-            var  repo = Repositories.AllRepositories[2];
-            var series = await repo.SearchSeriesAsync(searchBar.Text);
-            foreach (var item in series)
-            {
-                searchResults.Add(new SearchViewModel {Name=item.Title, Cover=item.CoverImageUri, Author=item.Author });
-            }
-            searchList.ItemsSource = searchResults;
+            var ViewModel = new SearchViewModel();
+            ViewModel.SearchSeries.Execute(MangaSearch.Text);
         }
     }
 }
