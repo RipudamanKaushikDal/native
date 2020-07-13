@@ -1510,11 +1510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
       "projectName": "Contacts.iOS",
-      "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
+      "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
       "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1535,8 +1535,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
-              "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
+            "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
+              "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V1rgiRNF2sOZrZ0xj8wKkZX3O2kFVw8g0gSSb6l+Lde9kPaZLsracNoKTQtbEYuEZUXfQXn0q8aATa/D36FeZA==",
+  "dgSpecHash": "QpX96e/CoqbSQSqggQx1gWslTI7v4sr2m7Xc2lXURmnzw+RymC2UxiUTnA8A+eB1jeuhmk4vpdzU7se7gHeC7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
+  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

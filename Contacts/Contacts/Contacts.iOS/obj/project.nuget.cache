@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yPQgH0r0CmoU3jGOa9ecBMZmoOhF7KDxTxuG/+nuBvIzgwcTOphNqzUOU5iIKNNTIHf069HMXpd7D0ulYatqMA==",
+  "dgSpecHash": "icXU45tRfdLOws2binAf63DSsU2j27JLzXuzgka9d9QMtXyoOIAjLH2qDVA3YqUECouty6ZpgiqposE/Z6fopg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {}
+    "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
+    "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
+        "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
         "projectName": "Contacts",
-        "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
+        "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
         "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\obj\\",
+        "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

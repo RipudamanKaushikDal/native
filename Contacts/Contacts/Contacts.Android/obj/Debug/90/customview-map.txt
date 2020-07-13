@@ -21,6 +21,7 @@ background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
+crc64720bb2db43a66fe9.FormsViewPager;C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 external-cache-path;C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\Ripudaman\source\repos\Contacts\Contacts\Contacts.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml

@@ -2209,11 +2209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
       "projectName": "Contacts.Android",
-      "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
+      "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
       "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts.Android\\obj\\",
+      "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2234,8 +2234,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
-              "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
+            "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
+              "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
             }
           }
         }
