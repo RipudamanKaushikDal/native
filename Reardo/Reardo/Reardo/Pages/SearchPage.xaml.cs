@@ -28,22 +28,17 @@ namespace Reardo.Pages
             foreach (var series in serieslist)
             {
                 SearchResults.Add(new SearchList() { Name = series.Title, Author = series.Author, 
-                                                      Cover = series.CoverImageUri, });
+                                                      Cover = series.CoverImageUri, SeriesLink=series.SeriesPageUri });
             }
             SearchDisplay.ItemsSource = SearchResults;
         }
 
-        private void SearchDisplay_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void SearchDisplay_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedSeries = e.CurrentSelection;
-            string msg = String.Empty;
-            for (int i =0; i<selectedSeries.Count; i++)
-            {
-                var fields = selectedSeries[i] as SearchList;
-                msg = $"{fields.Name} is selected";
-            }
-
-            DisplayAlert("Selected", msg, "OK");
+            var selectedSeries = (e.CurrentSelection.FirstOrDefault() as SearchList);
+            string selectedName = selectedSeries.Name;
+            string selectedLink = selectedSeries.SeriesLink.ToString();
+            await Shell.Current.GoToAsync($"seriesdetail?title={selectedName}&serieslink={selectedLink}");
         }
     }
 }

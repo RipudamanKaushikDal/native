@@ -8,13 +8,13 @@
              x:Class="Reardo.AppShell">
 
     <TabBar>
-        <Tab Title="MyCollection">
+        <Tab Title="MyCollection" Route="main">
             <ShellContent>
                 <pages:MainPage/>
             </ShellContent>
         </Tab>
 
-        <Tab Title="Search">
+        <Tab Title="Search" Route="search">
             <ShellContent>
                 <pages:SearchPage/>
             </ShellContent>

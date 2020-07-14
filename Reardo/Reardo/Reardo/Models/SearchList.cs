@@ -13,5 +13,7 @@ namespace Reardo.Models
 
         public Uri Cover { get; set; }
 
+        public Uri SeriesLink { get; set; } 
+
     }
 }
