@@ -1,5 +1,7 @@
 ﻿using MangaScrapeLib;
+using Reardo.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +14,6 @@ namespace Reardo.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    [QueryProperty("SeriesTitle", "title")]
-    [QueryProperty("SeriesUri", "seriesLink")]
     public partial class SeriesDetail : ContentPage
     {
         public SeriesDetail()
@@ -21,26 +21,34 @@ namespace Reardo.Pages
             InitializeComponent();
         }
 
-        string seriestitle;
-        string seriesuri;
-        public string SeriesTitle { get => seriestitle; set => seriestitle = Uri.UnescapeDataString(value); }
 
-        public string SeriesUri { get => seriesuri; set => seriesuri = value; }
+        
+        public ISeries SelectedSeries { get; set; }
 
-        public int ChapterCount { get; set; }
-        public List<IChapter> ChaptersList { get; set; }
+        public List<ChapterList> ChaptersDisplay = new List<ChapterList>();
+
+        public SeriesDetail(ISeries seriesModel)
+        {
+            SelectedSeries = seriesModel;
+           
+        }
 
         protected async override void OnAppearing()
         {
             base.OnAppearing();
 
-            var Serieslink = new Uri(SeriesUri);
-            var series = Repositories.GetSeriesFromData(Serieslink, SeriesTitle);
-            var totalChapters =  await series.GetChaptersAsync();
-            ChaptersList = totalChapters.ToList();
-            ChapterCount = ChaptersList.Count;
-            ChapterDisplay.ItemsSource = ChaptersList;
+            var totalChapters = await SelectedSeries.GetChaptersAsync();
+            foreach (var chapter in totalChapters)
+            {
+                ChaptersDisplay.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated });
+            }
+
+            
         }
 
+        private void DisplayContent_Clicked(object sender, EventArgs e)
+        {
+            ChapterDisplay.ItemsSource = ChaptersDisplay;
+        }
     }
 }
