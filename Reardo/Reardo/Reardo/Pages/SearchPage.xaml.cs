@@ -1,5 +1,6 @@
 ﻿using MangaScrapeLib;
 using Reardo.Models;
+using Reardo.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,8 +38,11 @@ namespace Reardo.Pages
         {
             var selection = (e.CurrentSelection.FirstOrDefault() as SearchList);
             ISeries selectedSeries = selection.SeriesModel;
+            var seriesdetail = new SeriesDetail();
+            var chapterview = new ChapterViewModel(selectedSeries);
+            seriesdetail.BindingContext = chapterview;
 
-            await Shell.Current.Navigation.PushAsync(new SeriesDetail(selectedSeries));
+            await Navigation.PushAsync(seriesdetail);
         }
     }
 }

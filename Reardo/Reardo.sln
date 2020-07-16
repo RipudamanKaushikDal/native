@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reardo.Android", "Reardo\Reardo.Android\Reardo.Android.csproj", "{E10AA1F3-A1CB-44FF-8B75-CA443123A368}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reardo.Android", "Reardo\Reardo.Android\Reardo.Android.csproj", "{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reardo", "Reardo\Reardo\Reardo.csproj", "{24045505-BC7D-46B6-B0AB-54B3E782EE72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reardo", "Reardo\Reardo\Reardo.csproj", "{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,23 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E10AA1F3-A1CB-44FF-8B75-CA443123A368}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24045505-BC7D-46B6-B0AB-54B3E782EE72}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A41D8FE-D8C1-4010-B98B-4FB65CCA4CEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6267F8D8-DD0B-46F7-AA95-EAA50A7CA1E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {977792BE-FD3E-40DD-9CFD-BA1DEC196692}
+		SolutionGuid = {BAF4A967-22C3-484B-99D7-4C73765DE089}
 	EndGlobalSection
 EndGlobal

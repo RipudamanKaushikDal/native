@@ -5,25 +5,35 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Reardo.Pages.SeriesDetail">
+
+    
     <ContentPage.Content>
-        <StackLayout Padding="10" Orientation="Vertical">
-            <Button Text="Show Chapters" x:Name="DisplayContent" WidthRequest="60" BackgroundColor="AliceBlue" Clicked="DisplayContent_Clicked"/>
-            <CollectionView x:Name="ChapterDisplay" SelectionMode="Single">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="250" />
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image Source="{Binding Cover}" HeightRequest="250" Aspect="AspectFit" BackgroundColor="Black"  Grid.Row="0"/>
+            <Button Text="Show Chapters" HorizontalOptions="Center" HeightRequest="40" WidthRequest="250" BackgroundColor="Coral" 
+                    Command="{Binding DownloadChapters}"  Grid.Row="1" />
+            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" Grid.Row="2" />
+
+
+            <CollectionView x:Name="ChapterDisplay" SelectionMode="Single" ItemsSource="{Binding ChaptersList}" Grid.Row="3">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="80" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            
-                            <Label Text="{Binding ChapterName}" FontSize="Title" Grid.Row="0"/>
-                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Gray" Grid.Row="0"/>
+                        
+                        <StackLayout Orientation="Vertical" Padding="10" >
+                            <Label Text="{Binding ChapterName}"  FontSize="Title" />
 
-                        </Grid>
+                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Gray"/>
+                        </StackLayout>
+
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

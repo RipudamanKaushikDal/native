@@ -813,11 +813,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
+      "projectUniqueName": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
       "projectName": "Reardo",
-      "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
+      "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
       "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\obj\\",
+      "outputPath": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

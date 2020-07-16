@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Reardo.AppShell.xaml", "AppShell.xaml", typeof(global::Reardo.AppShell))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Reardo.Pages.MyCollections.xaml", "Pages/MyCollections.xaml", typeof(global::Reardo.Pages.MyCollections))]
 
-namespace Reardo {
+namespace Reardo.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AppShell.xaml")]
-    public partial class AppShell : global::Xamarin.Forms.Shell {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\MyCollections.xaml")]
+    public partial class MyCollections : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AppShell));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MyCollections));
         }
     }
 }

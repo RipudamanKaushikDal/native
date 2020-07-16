@@ -1,5 +1,4 @@
-﻿using Reardo.Pages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,15 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Reardo
+namespace Reardo.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AppShell : Shell
+    public partial class MyCollections : ContentPage
     {
-        public AppShell()
+        public MyCollections()
         {
             InitializeComponent();
-            Routing.RegisterRoute("seriesdetail", typeof(SeriesDetail));
         }
     }
 }
