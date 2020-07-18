@@ -4,10 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Reardo.Pages.SearchPage">
+             x:Class="Reardo.Pages.SearchPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series" 
+            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series"  BackgroundColor="Azure"
                        SearchButtonPressed="ComicSearch_Pressed" />
 
             <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged">
@@ -22,8 +23,8 @@
                                    HeightRequest="90" Grid.Column="0"/>
 
                             <StackLayout Orientation="Vertical" Grid.Column="1">
-                                <Label Text="{Binding Name}" FontSize="Title" />
-                                <Label Text="{Binding Author}" FontSize="Subtitle"/>
+                                <Label Text="{Binding Name}" FontSize="Title" TextColor="WhiteSmoke" />
+                                <Label Text="{Binding Author}" FontSize="Subtitle" TextColor="Wheat"/>
                             </StackLayout>
                         </Grid>
                     </DataTemplate>

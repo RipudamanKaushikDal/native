@@ -5335,11 +5335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
       "projectName": "Reardo.Android",
-      "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+      "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
       "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo.Android\\obj\\",
+      "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5360,8 +5360,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
-              "projectPath": "C:\\Users\\Ripudaman\\source\\repos\\Reardo\\Reardo\\Reardo\\Reardo.csproj"
+            "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
+              "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj"
             }
           }
         }

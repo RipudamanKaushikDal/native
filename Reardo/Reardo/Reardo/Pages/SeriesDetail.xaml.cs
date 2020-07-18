@@ -4,6 +4,7 @@ using Reardo.ViewModels;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,13 +25,16 @@ namespace Reardo.Pages
             InitializeComponent();
         }
 
-        
-
-
-
-
-
-
-        
+        private async void ChapterDisplay_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selection = (e.CurrentSelection.FirstOrDefault() as ChapterList);
+            var chapter = selection.ChapterModel;
+            var comicspage = new ComicPages()
+            {
+                BindingContext = new ComicPageModel(chapter)
+            };
+            
+;           await Navigation.PushAsync(comicspage);
+        }
     }
 }

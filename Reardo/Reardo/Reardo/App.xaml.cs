@@ -9,6 +9,7 @@ namespace Reardo
         public App()
         {
             InitializeComponent();
+             
 
             MainPage = new MainPage();
         }

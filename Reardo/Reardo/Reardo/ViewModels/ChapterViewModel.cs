@@ -64,7 +64,7 @@ namespace Reardo.ViewModels
                  ChapterCount = totalChapters.Count.ToString();
                  foreach (var chapter in totalChapters)
                  {
-                     ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated });
+                     ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel=chapter });
                  }
 
              });

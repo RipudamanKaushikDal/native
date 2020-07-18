@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Reardo.Pages.SeriesDetail">
+             x:Class="Reardo.Pages.SeriesDetail"
+             BackgroundColor="Black">
 
     
     <ContentPage.Content>
@@ -15,20 +16,20 @@
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Image Source="{Binding Cover}" HeightRequest="250" Aspect="AspectFit" BackgroundColor="Black"  Grid.Row="0"/>
+            <Image Source="{Binding Cover}" HeightRequest="250" Aspect="AspectFit"   Grid.Row="0"/>
             <Button Text="Show Chapters" HorizontalOptions="Center" HeightRequest="40" WidthRequest="250" BackgroundColor="Coral" 
                     Command="{Binding DownloadChapters}"  Grid.Row="1" />
-            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" Grid.Row="2" />
+            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="WhiteSmoke" HorizontalOptions="Center" Grid.Row="2" />
 
 
-            <CollectionView x:Name="ChapterDisplay" SelectionMode="Single" ItemsSource="{Binding ChaptersList}" Grid.Row="3">
+            <CollectionView x:Name="ChapterDisplay" SelectionMode="Single" ItemsSource="{Binding ChaptersList}" Grid.Row="3" SelectionChanged="ChapterDisplay_SelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         
                         <StackLayout Orientation="Vertical" Padding="10" >
-                            <Label Text="{Binding ChapterName}"  FontSize="Title" />
+                            <Label Text="{Binding ChapterName}"  FontSize="Title" TextColor="WhiteSmoke" />
 
-                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Gray"/>
+                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Wheat"/>
                         </StackLayout>
 
                     </DataTemplate>
