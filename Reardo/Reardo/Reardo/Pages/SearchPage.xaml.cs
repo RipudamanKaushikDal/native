@@ -43,6 +43,7 @@ namespace Reardo.Pages
             seriesdetail.BindingContext = chapterview;
 
             await Navigation.PushAsync(seriesdetail);
+            SearchResults.Clear();
         }
     }
 }

@@ -5,22 +5,25 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Reardo.Pages.ComicPages"
-             BackgroundColor="Black">
+             >
 
     
     
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
             <Button Text="Load Images" HorizontalOptions="Center" HeightRequest="50" WidthRequest="100"  BackgroundColor="HotPink" Command="{Binding DownloadPages}"/>
-            <CollectionView x:Name="PagesDisplay"  EmptyView="No data" ItemsSource="{Binding ChapterImages}">
-                <CollectionView.ItemTemplate>
+            <CarouselView x:Name="PagesDisplay"  EmptyView="No data" ItemsSource="{Binding ChapterImages}">
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                </CarouselView.ItemsLayout>
+                <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Padding="5">
-                            <Image Source="{Binding PageImage}" Aspect="AspectFill" HeightRequest="300"   />
-                        </StackLayout>
+                        <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="350">
+                            <Image Source="{Binding PageImage}" Aspect="AspectFit"    />
+                        </Frame>
                     </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
             
         </StackLayout>
     </ContentPage.Content>

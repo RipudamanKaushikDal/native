@@ -16,7 +16,7 @@ namespace Reardo.ViewModels
 
         public ComicPageModel()
         {
-
+            return;
         }
         public ObservableCollection<ChapterPages> ChapterImages { get; set; } = new ObservableCollection<ChapterPages>();
 

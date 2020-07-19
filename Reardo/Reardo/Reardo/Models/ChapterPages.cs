@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using Xamarin.Forms;
 
 namespace Reardo.Models
 {
     public class ChapterPages
     {
-        public object PageImage { get; set; }
+        public ImageSource PageImage { get; set; }
     }
 }

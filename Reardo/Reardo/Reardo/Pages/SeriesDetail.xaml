@@ -5,11 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Reardo.Pages.SeriesDetail"
-             BackgroundColor="Black">
+            >
 
     
     <ContentPage.Content>
-        <Grid>
+        <Grid  BackgroundColor="Black">
             <Grid.RowDefinitions>
                 <RowDefinition Height="250" />
                 <RowDefinition Height="60"/>
