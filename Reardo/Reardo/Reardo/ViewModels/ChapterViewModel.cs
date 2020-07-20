@@ -1,5 +1,7 @@
-﻿using MangaScrapeLib;
+﻿using AngleSharp.Common;
+using MangaScrapeLib;
 using Reardo.Models;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -20,7 +22,17 @@ namespace Reardo.ViewModels
 
         string chaptercount;
         private Uri seriesCover;
-      
+        private string databaseIndicator = "+ Add";
+
+        public string DatabaseIndicator
+        {
+            get => databaseIndicator; set
+            {
+                databaseIndicator = value;
+                OnPropertyChanged(nameof(DatabaseIndicator));
+            }
+        }
+
 
         public string ChapterCount
         {
@@ -42,6 +54,7 @@ namespace Reardo.ViewModels
 
 
         public Command DownloadChapters { get; set; }
+        public Command AddSeries { get; set; }
 
         public ChapterViewModel()
         {
@@ -64,11 +77,31 @@ namespace Reardo.ViewModels
                  ChapterCount = totalChapters.Count.ToString();
                  foreach (var chapter in totalChapters)
                  {
-                     ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel=chapter });
+                     ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel = chapter });
                  }
 
              });
 
+            AddSeries = new Command(() => AddtoDatabase());
+
+        }
+
+        private void AddtoDatabase()
+        {
+            Favorites favoriteseries = new Favorites()
+            {
+                SeriesTitle = SelectedSeries.Title,
+                CoverImage = SelectedSeries.CoverImageUri,
+                SeriesUri = SelectedSeries.SeriesPageUri
+            };
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.DbPath))
+            {
+                conn.CreateTable<Favorites>();
+                int rows = conn.Insert(favoriteseries);
+            }
+
+            DatabaseIndicator = "Added";
         }
 
 

@@ -12,13 +12,23 @@
         <Grid  BackgroundColor="Black">
             <Grid.RowDefinitions>
                 <RowDefinition Height="250" />
-                <RowDefinition Height="60"/>
+                <RowDefinition Height="100"/>
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Image Source="{Binding Cover}" HeightRequest="250" Aspect="AspectFit"   Grid.Row="0"/>
-            <Button Text="Show Chapters" HorizontalOptions="Center" HeightRequest="40" WidthRequest="250" BackgroundColor="Coral" 
-                    Command="{Binding DownloadChapters}"  Grid.Row="1" />
+            
+            <Image Source="{Binding Cover}" HeightRequest="220" Aspect="Fill"   Grid.Row="0"/>
+            <Frame Margin="10,0,10,0" BackgroundColor="Black" BorderColor="SkyBlue" CornerRadius="8" HeightRequest="90" Grid.Row="1">
+              
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Show Chapters"  HeightRequest="50"  VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="80" BackgroundColor="Coral" 
+                    Command="{Binding DownloadChapters}"   />
+                    <Button Text="{Binding DatabaseIndicator}" Command="{Binding AddSeries}" HorizontalOptions="End" HeightRequest="50" VerticalOptions="Center" WidthRequest="80" 
+                            BackgroundColor="Coral"/>
+                </StackLayout>
+                
+            </Frame>
+            
             <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="WhiteSmoke" HorizontalOptions="Center" Grid.Row="2" />
 
 

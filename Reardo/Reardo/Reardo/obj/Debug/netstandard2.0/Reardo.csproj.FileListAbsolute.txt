@@ -28,8 +28,8 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\net
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Pages\SeriesDetail.xaml.g.cs
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.AssemblyInfoInputs.cache
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.AssemblyInfo.cs
-C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.csproj.CoreCompileInputs.cache
-C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\ref\Reardo.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.pdb
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.csproj.CoreCompileInputs.cache
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\XamlC.stamp

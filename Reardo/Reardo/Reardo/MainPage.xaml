@@ -10,7 +10,7 @@
              android:TabbedPage.ToolbarPlacement="Bottom">
 
 
-    <NavigationPage Title="MyCollection">
+    <NavigationPage Title="Home">
         <x:Arguments>
             <pages:MyCollections/>
         </x:Arguments>
