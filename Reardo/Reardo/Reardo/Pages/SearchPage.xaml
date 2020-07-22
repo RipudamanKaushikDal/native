@@ -7,8 +7,8 @@
              x:Class="Reardo.Pages.SearchPage"
              Title=" Search">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black">
-            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series"  BackgroundColor="Azure"
+        <StackLayout >
+            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series"  Margin="10" 
                        SearchButtonPressed="ComicSearch_Pressed" />
 
             <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged" EmptyView="NO Data">
@@ -23,8 +23,8 @@
                                    HeightRequest="150" Grid.Column="0"/>
 
                             <StackLayout Orientation="Vertical" Grid.Column="1">
-                                <Label Text="{Binding Name}" FontSize="Title" TextColor="WhiteSmoke" />
-                                <Label Text="{Binding Author}" FontSize="Subtitle" TextColor="Wheat"/>
+                                <Label Text="{Binding Name}" FontSize="Title" TextColor="Black" />
+                                <Label Text="{Binding Author}" FontSize="Subtitle" TextColor="Gray"/>
                             </StackLayout>
                         </Grid>
                     </DataTemplate>

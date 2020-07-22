@@ -9,27 +9,30 @@
 
     
     <ContentPage.Content>
-        <Grid  BackgroundColor="Black">
+        <Grid >
             <Grid.RowDefinitions>
-                <RowDefinition Height="250" />
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="*" />
+                <RowDefinition Height="160" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            
-            <Image Source="{Binding Cover}" HeightRequest="220" Aspect="Fill"   Grid.Row="0"/>
-            <Frame Margin="10,0,10,0" BackgroundColor="Black" BorderColor="SkyBlue" CornerRadius="8" HeightRequest="90" Grid.Row="1">
+
+            <Path Fill="#ffac8d" Stroke="#ffac8d"  Aspect="UniformToFill" Grid.Row="0"
+                  Data="m138.35714,138.25572c147,-55.17806 245,82 236.64286,-0.5355c-19.64286,-85.83017 -383.64286,55.71357 -236.64286,0.5355z"/>
+            <Image Source="{Binding Cover}" HeightRequest="170" Aspect="AspectFit"   Grid.Row="0"/>
+            <Frame  BackgroundColor="WhiteSmoke" BorderColor="SkyBlue" HeightRequest="40" CornerRadius="8" Margin="10,0,10,0" Grid.Row="1">
               
-                <StackLayout Orientation="Horizontal">
-                    <Button Text="Show Chapters"  HeightRequest="50"  VerticalOptions="Center" HorizontalOptions="Start" WidthRequest="80" BackgroundColor="Coral" 
-                    Command="{Binding DownloadChapters}"   />
-                    <Button Text="{Binding DatabaseIndicator}" Command="{Binding AddSeries}" HorizontalOptions="End" HeightRequest="50" VerticalOptions="Center" WidthRequest="80" 
+                <StackLayout Orientation="Horizontal" Padding="20,0,0,0">
+                    <Button Text="Show Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="Coral" 
+                    Command="{Binding DownloadChapters}"    />
+                    <Label Text="|" TextColor="Black" FontSize="Large" HorizontalOptions="Center" Padding="20,0,30,0"/>
+                    <Button Text="{Binding DatabaseIndicator}"  Command="{Binding AddSeries}"  HorizontalOptions="End"  WidthRequest="100" 
                             BackgroundColor="Coral"/>
                 </StackLayout>
                 
             </Frame>
             
-            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="WhiteSmoke" HorizontalOptions="Center" Grid.Row="2" />
+            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" Grid.Row="2" />
 
 
             <CollectionView x:Name="ChapterDisplay" SelectionMode="Single" ItemsSource="{Binding ChaptersList}" Grid.Row="3" SelectionChanged="ChapterDisplay_SelectionChanged">
@@ -37,9 +40,9 @@
                     <DataTemplate>
                         
                         <StackLayout Orientation="Vertical" Padding="10" >
-                            <Label Text="{Binding ChapterName}"  FontSize="Title" TextColor="WhiteSmoke" />
+                            <Label Text="{Binding ChapterName}"  FontSize="Title" TextColor="Black" />
 
-                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Wheat"/>
+                            <Label Text="{Binding UpdatedDate}" FontSize="Subtitle" TextColor="Gray"/>
                         </StackLayout>
 
                     </DataTemplate>

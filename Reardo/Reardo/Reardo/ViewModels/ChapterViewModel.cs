@@ -61,6 +61,26 @@ namespace Reardo.ViewModels
 
         }
 
+        public ChapterViewModel(ISeries series,Uri cover)
+        {
+            SelectedSeries = series;
+            Cover = cover;
+
+            DownloadChapters = new Command(async () =>
+            {
+                var totalChapters = await SelectedSeries.GetChaptersAsync();
+                ChapterCount = totalChapters.Count.ToString();
+                foreach (var chapter in totalChapters)
+                {
+                    ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel = chapter });
+                }
+
+            });
+
+            AddSeries = new Command(() => AddtoDatabase());
+
+        }
+
         void OnPropertyChanged(string name)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));

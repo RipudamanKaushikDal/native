@@ -23,7 +23,7 @@ namespace Reardo.Droid
             string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string completePath = System.IO.Path.Combine(folderPath, dbName);
 
-            Xamarin.Forms.Forms.SetFlags("CarouselView_Experimental");
+           
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App(completePath));

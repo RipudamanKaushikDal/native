@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5PmGnstBO/GTKxC2kBk2S7PntMiDQpd1fkPipeLTxXVdy/8ycnEqBuzo1Oq8PhR0NTvKOh6KIEZPAr21bbBugQ==",
+  "dgSpecHash": "d6xcucw/MV3/E9QSCioeU8Vm8bOOW1AqMgz5ZUOJ+BoLlLiM35FoYCIQg4Qhjdsl0V/5de7lrDOawHoO2ZxrFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
   "expectedPackageFiles": [
@@ -19,8 +19,8 @@
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512"
   ],
   "logs": []
 }

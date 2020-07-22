@@ -7,16 +7,12 @@
              x:Class="Reardo.Pages.MyCollections"
             >
     <ContentPage.Content>
-        <Grid BackgroundColor="Black" Margin="0,-10,0,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="300"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Image Source="overlay.png" HeightRequest="320" Grid.Row="0"/>
+        <Grid  Grid.RowDefinitions =" 150,Auto,Auto">
+            
+            <Path Fill="BlueViolet" Stroke="BlueViolet" Aspect="Fill" Data="m217.27021,134.77419l227.99998,0l0,116.15856c-113.99999,0 -113.99999,44.25854 -227.99998,19.11165l0,-135.27021z" Grid.Row="0"/>
             <Label Text="REARDO" TextColor="WhiteSmoke" FontSize="Title" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" />
-            <Label Text="My Collection" TextColor="WhiteSmoke" FontSize="Title" HorizontalOptions="Center" Grid.Row="1" />
-            <CollectionView x:Name="FavoritesDisplay" EmptyView="No Series Added" Grid.Row="2">
+            <Label Text="My Collection" TextColor="Black" FontSize="Title" HorizontalOptions="Center" Grid.Row="1" />
+            <CollectionView x:Name="FavoritesDisplay" EmptyView="No Series Added" Grid.Row="2" SelectionMode="Single" SelectionChanged="FavoritesDisplay_SelectionChanged">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2"/>
                 </CollectionView.ItemsLayout>
@@ -25,14 +21,15 @@
                         <Grid Padding="10">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="160"/>
-                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
-                            <Image Source="{Binding CoverImage}" Aspect="AspectFit" HeightRequest="150"/>
-                            <Label Text="{Binding SeriesTitle}" TextColor="WhiteSmoke" FontSize="Subtitle"/>
+                            <Image Source="{Binding CoverImage}" Aspect="AspectFit" HeightRequest="150" Grid.Row="0"/>
+                            <Label Text="{Binding SeriesTitle}" TextColor="Black" HorizontalOptions="Center" FontSize="Medium" Grid.Row="1"/>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>

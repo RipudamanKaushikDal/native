@@ -19,7 +19,7 @@
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="350">
-                            <Image Source="{Binding PageImage}" Aspect="AspectFit"    />
+                            <Image Source="{Binding PageImage}" Aspect="Fill"    />
                         </Frame>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>

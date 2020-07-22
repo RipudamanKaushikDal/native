@@ -9,14 +9,14 @@ namespace Reardo
         public static string DbPath; 
         public App()
         {
+            Device.SetFlags(new string[] { "Shapes_Experimental", "CarouselView_Experimental" });
             InitializeComponent();
-             
-
             MainPage = new MainPage();
         }
 
         public App(string path)
         {
+            Device.SetFlags(new string[] { "Shapes_Experimental", "CarouselView_Experimental" });
             InitializeComponent();
             MainPage = new MainPage();
             DbPath = path;
