@@ -6,17 +6,20 @@
              xmlns:pages="clr-namespace:Reardo.Pages;assembly=Reardo"
              mc:Ignorable="d"
              x:Class="Reardo.MainPage"
+             BarBackgroundColor="Violet"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-             android:TabbedPage.ToolbarPlacement="Bottom">
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="White"
+             >
 
 
-    <NavigationPage Title="Home">
+    <NavigationPage Title="Home" Icon="ic_action_home.png">
         <x:Arguments>
             <pages:MyCollections/>
         </x:Arguments>
     </NavigationPage>
 
-    <NavigationPage Title="Search">
+    <NavigationPage Title="Search" Icon="ic_action_search.png">
     <x:Arguments>
         <pages:SearchPage/>
     </x:Arguments>

@@ -38,11 +38,12 @@ namespace Reardo.Pages
             string Seriestitle = selection.SeriesTitle;
             Uri Serieslink = selection.SeriesUri;
             Uri CoverImage = selection.CoverImage;
+            int objectID = selection.Id;
             ISeries series = Repositories.GetSeriesFromData(Serieslink, Seriestitle);
             var seriesdetail = new SeriesDetail();
-            var chapterview = new ChapterViewModel(series,CoverImage);
+            var chapterview = new ChapterViewModel(series,CoverImage,objectID);
             seriesdetail.BindingContext = chapterview;
-
+       
             await Navigation.PushAsync(seriesdetail);
         }
     }

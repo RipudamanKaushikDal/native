@@ -61,7 +61,7 @@ namespace Reardo.ViewModels
 
         }
 
-        public ChapterViewModel(ISeries series,Uri cover)
+        public ChapterViewModel(ISeries series,Uri cover, int seriesID)
         {
             SelectedSeries = series;
             Cover = cover;
@@ -76,8 +76,17 @@ namespace Reardo.ViewModels
                 }
 
             });
-
-            AddSeries = new Command(() => AddtoDatabase());
+            DatabaseIndicator = "Added";
+            AddSeries = new Command(() => {
+                if (DatabaseIndicator == "Added")
+                {
+                    RemoveFromDB(seriesID);
+                }
+                else
+                {
+                    AddtoDatabase();
+                }
+            });
 
         }
 
@@ -119,9 +128,20 @@ namespace Reardo.ViewModels
             {
                 conn.CreateTable<Favorites>();
                 int rows = conn.Insert(favoriteseries);
+                
             }
 
             DatabaseIndicator = "Added";
+        }
+
+        private void RemoveFromDB(int id)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.DbPath))
+            {
+                conn.Delete<Favorites>(id);
+                DatabaseIndicator = "+ Add";
+            }
+           
         }
 
 

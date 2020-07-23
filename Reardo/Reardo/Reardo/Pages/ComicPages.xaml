@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Reardo.Pages.ComicPages"
+             NavigationPage.HasNavigationBar="False"
              >
 
     
@@ -19,7 +20,7 @@
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="350">
-                            <Image Source="{Binding PageImage}" Aspect="Fill"    />
+                            <Image Source="{Binding PageImage}" Aspect="AspectFill"    />
                         </Frame>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>

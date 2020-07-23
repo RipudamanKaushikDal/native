@@ -980,7 +980,6 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\D
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\flata\61EFB56FCA89E9DD.flata
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\flata\71FE084A9D899D3D.flata
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\flata\59646A61B76592B9.flata
-C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\drawable\overlay.png
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\assets\SQLite-net.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
@@ -1007,3 +1006,15 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\D
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-hdpi\ic_action_home.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-hdpi\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-mdpi\ic_action_home.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-mdpi\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xhdpi\ic_action_home.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xhdpi\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xxhdpi\ic_action_home.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xxhdpi\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xxxhdpi\ic_action_home.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\mipmap-xxxhdpi\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\drawable\ic_action_search.png
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Debug\90\res\drawable\ic_action_home.png

@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Reardo.Pages.SeriesDetail"
+             NavigationPage.HasNavigationBar="False"
             >
 
     
@@ -17,17 +18,17 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Path Fill="#ffac8d" Stroke="#ffac8d"  Aspect="UniformToFill" Grid.Row="0"
+            <Path Fill="DarkOrange" Stroke="DarkOrange"  Aspect="UniformToFill" Grid.Row="0"
                   Data="m138.35714,138.25572c147,-55.17806 245,82 236.64286,-0.5355c-19.64286,-85.83017 -383.64286,55.71357 -236.64286,0.5355z"/>
             <Image Source="{Binding Cover}" HeightRequest="170" Aspect="AspectFit"   Grid.Row="0"/>
-            <Frame  BackgroundColor="WhiteSmoke" BorderColor="SkyBlue" HeightRequest="40" CornerRadius="8" Margin="10,0,10,0" Grid.Row="1">
+            <Frame  BackgroundColor="WhiteSmoke" BorderColor="SkyBlue" HeightRequest="40" CornerRadius="8" Margin="10,0,10,0" Grid.Row="1" HasShadow="True">
               
-                <StackLayout Orientation="Horizontal" Padding="20,0,0,0">
-                    <Button Text="Show Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="Coral" 
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Show Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="LightCoral"
                     Command="{Binding DownloadChapters}"    />
-                    <Label Text="|" TextColor="Black" FontSize="Large" HorizontalOptions="Center" Padding="20,0,30,0"/>
+                    <Label Text="|" TextColor="Black" FontSize="Large" HorizontalOptions="Center" Padding="30,0,30,0"/>
                     <Button Text="{Binding DatabaseIndicator}"  Command="{Binding AddSeries}"  HorizontalOptions="End"  WidthRequest="100" 
-                            BackgroundColor="Coral"/>
+                            BackgroundColor="LightCoral"/>
                 </StackLayout>
                 
             </Frame>
