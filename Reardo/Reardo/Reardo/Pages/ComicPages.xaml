@@ -11,15 +11,14 @@
     
     
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" BackgroundColor="Black">
-            <Button Text="Load Images" HorizontalOptions="Center" HeightRequest="50" WidthRequest="100"  BackgroundColor="HotPink" Command="{Binding DownloadPages}"/>
-            <CarouselView x:Name="PagesDisplay"  EmptyView="No data" ItemsSource="{Binding ChapterImages}">
+        <StackLayout Orientation="Vertical" >
+            <CarouselView x:Name="PagesDisplay"  EmptyView="No data" ItemsSource="{Binding ChapterImages}" >
                 <CarouselView.ItemsLayout>
-                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="3" />
                 </CarouselView.ItemsLayout>
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <Frame HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HeightRequest="350">
+                        <Frame >
                             <Image Source="{Binding PageImage}" Aspect="AspectFill"    />
                         </Frame>
                     </DataTemplate>

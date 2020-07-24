@@ -3,6 +3,7 @@ using Reardo.Models;
 using Reardo.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,13 +19,16 @@ namespace Reardo.Pages
         public SearchPage()
         {
             InitializeComponent();
+            SourceRepo.ItemsSource = Sources;
         }
 
-        public List<SearchList> SearchResults = new List<SearchList>();
+        public ObservableCollection<SearchList> SearchResults = new ObservableCollection<SearchList>();
+        public List<string> Sources = new List<string>() { "MangaEden(EN)", "MangaEden(IT)", "MangaNel", "MangaStream" };
+        public int RepoNumber { get; set; } = 2;
 
         private async void ComicSearch_Pressed(object sender, EventArgs e)
         {
-            var repo = Repositories.AllRepositories[2];
+            var repo = Repositories.AllRepositories[RepoNumber];
             var serieslist = await repo.SearchSeriesAsync(ComicSearch.Text);
             foreach (var series in serieslist)
             {
@@ -44,6 +48,19 @@ namespace Reardo.Pages
 
             await Navigation.PushAsync(seriesdetail);
             SearchResults.Clear();
+        }
+
+        private void SourceRepo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var picker = (Picker)sender;
+            RepoNumber = picker.SelectedIndex;
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            SearchResults.Clear();
+            ComicSearch.Text = String.Empty;
         }
     }
 }

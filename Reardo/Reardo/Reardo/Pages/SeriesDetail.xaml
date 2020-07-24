@@ -24,9 +24,9 @@
             <Frame  BackgroundColor="WhiteSmoke" BorderColor="SkyBlue" HeightRequest="40" CornerRadius="8" Margin="10,0,10,0" Grid.Row="1" HasShadow="True">
               
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Button Text="Show Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="LightCoral"
+                    <Button Text="Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="LightCoral"
                     Command="{Binding DownloadChapters}"    />
-                    <Label Text="|" TextColor="Black" FontSize="Large" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                    <Label Text="|" TextColor="SkyBlue" FontSize="Large" HorizontalOptions="Center" Padding="30,0,30,0"/>
                     <Button Text="{Binding DatabaseIndicator}"  Command="{Binding AddSeries}"  HorizontalOptions="End"  WidthRequest="100" 
                             BackgroundColor="LightCoral"/>
                 </StackLayout>

@@ -117,9 +117,10 @@ namespace Reardo.ViewModels
 
         private void AddtoDatabase()
         {
+            string Title = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(SelectedSeries.Title.ToLower());
             Favorites favoriteseries = new Favorites()
             {
-                SeriesTitle = SelectedSeries.Title,
+                SeriesTitle = Title,
                 CoverImage = SelectedSeries.CoverImageUri,
                 SeriesUri = SelectedSeries.SeriesPageUri
             };

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -33,7 +34,6 @@ namespace Reardo.Pages
             {
                 BindingContext = new ComicPageModel(chapter)
             };
-            
 ;           await Navigation.PushAsync(comicspage);
         }
     }
