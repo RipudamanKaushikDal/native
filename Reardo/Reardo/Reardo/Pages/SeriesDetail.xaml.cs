@@ -30,10 +30,12 @@ namespace Reardo.Pages
         {
             var selection = (e.CurrentSelection.FirstOrDefault() as ChapterList);
             var chapter = selection.ChapterModel;
+            Progress.Text = (chapter.ReadingOrder+1).ToString();
             var comicspage = new ComicPages()
             {
                 BindingContext = new ComicPageModel(chapter)
             };
+
 ;           await Navigation.PushAsync(comicspage);
         }
     }

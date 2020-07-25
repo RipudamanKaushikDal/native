@@ -24,7 +24,7 @@
             <Frame  BackgroundColor="WhiteSmoke" BorderColor="SkyBlue" HeightRequest="40" CornerRadius="8" Margin="10,0,10,0" Grid.Row="1" HasShadow="True">
               
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Button Text="Chapters"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="LightCoral"
+                    <Button Text="{Binding ShowTrack}"  HorizontalOptions="Start" WidthRequest="100" BackgroundColor="LightCoral"
                     Command="{Binding DownloadChapters}"    />
                     <Label Text="|" TextColor="SkyBlue" FontSize="Large" HorizontalOptions="Center" Padding="30,0,30,0"/>
                     <Button Text="{Binding DatabaseIndicator}"  Command="{Binding AddSeries}"  HorizontalOptions="End"  WidthRequest="100" 
@@ -32,8 +32,14 @@
                 </StackLayout>
                 
             </Frame>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="2">
+                <Label Text="Progress:" FontSize="Medium" TextColor="Black"/>
+                <Label x:Name="Progress" Text="{ Binding ReadProgress,Mode=TwoWay}"  FontSize="Medium" TextColor="Black"  />
+                <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="Black"   />
+            </StackLayout>
             
-            <Label Text="{Binding ChapterCount}" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" Grid.Row="2" />
+            
 
 
             <CollectionView x:Name="ChapterDisplay" SelectionMode="Single" ItemsSource="{Binding ChaptersList}" Grid.Row="3" SelectionChanged="ChapterDisplay_SelectionChanged">

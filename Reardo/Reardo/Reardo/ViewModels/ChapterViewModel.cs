@@ -1,12 +1,10 @@
-﻿using AngleSharp.Common;
+﻿using AngleSharp.Text;
 using MangaScrapeLib;
 using Reardo.Models;
 using SQLite;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -21,8 +19,21 @@ namespace Reardo.ViewModels
         public ObservableCollection<ChapterList> ChaptersList { get; set; } = new ObservableCollection<ChapterList>();
 
         string chaptercount;
+        string readProgress;
         private Uri seriesCover;
         private string databaseIndicator = "+ Add";
+        private string showTrack = "Chapters";
+
+
+        public string ShowTrack
+        {
+            get => showTrack;
+            set
+            {
+                showTrack = value;
+                OnPropertyChanged(nameof(ShowTrack));
+            }
+        }
 
         public string DatabaseIndicator
         {
@@ -36,13 +47,21 @@ namespace Reardo.ViewModels
 
         public string ChapterCount
         {
-            get => $"Total Chapters:{chaptercount}"; set
+            get => $" /{chaptercount}" ; set
             {
                 chaptercount = value;
                 OnPropertyChanged(nameof(ChapterCount));
             }
         }
 
+        public string ReadProgress
+        {
+            get => readProgress ; set
+            {
+                readProgress = value;
+                OnPropertyChanged(nameof(ReadProgress));
+            }
+        }
         public Uri Cover
         {
             get => seriesCover; set
@@ -61,22 +80,15 @@ namespace Reardo.ViewModels
 
         }
 
-        public ChapterViewModel(ISeries series,Uri cover, int seriesID)
+        public ChapterViewModel(ISeries series, Uri cover, int seriesID, string progress)
         {
             SelectedSeries = series;
             Cover = cover;
-
-            DownloadChapters = new Command(async () =>
-            {
-                var totalChapters = await SelectedSeries.GetChaptersAsync();
-                ChapterCount = totalChapters.Count.ToString();
-                foreach (var chapter in totalChapters)
-                {
-                    ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel = chapter });
-                }
-
-            });
+            GetChapters();
+            ReadProgress = progress;
             DatabaseIndicator = "Added";
+            ShowTrack = "Track";
+            DownloadChapters = new Command(() => SaveProgress(seriesID));
             AddSeries = new Command(() => {
                 if (DatabaseIndicator == "Added")
                 {
@@ -145,7 +157,24 @@ namespace Reardo.ViewModels
            
         }
 
+        private async Task GetChapters()
+        {
+            var totalChapters = await SelectedSeries.GetChaptersAsync();
+            ChapterCount = totalChapters.Count.ToString();
+            foreach (var chapter in totalChapters)
+            {
+                ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel = chapter });
+            }
+        }
 
+        private void SaveProgress(int seriesID)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.DbPath))
+            {
+
+                conn.Execute("UPDATE Favorites SET Progress = ? Where Id = ?", ReadProgress, seriesID);
+            }
+        }
 
 
     }

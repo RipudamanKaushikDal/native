@@ -8,13 +8,8 @@
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout >
-            <Grid RowDefinitions="40" ColumnDefinitions="100,Auto"  BackgroundColor="Violet">
-                <Label Text="Source:" Padding="10" TextColor="WhiteSmoke" FontSize="Medium" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
-                <Picker x:Name="SourceRepo" Title="Select Source" TitleColor="Black" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"
-                        SelectedIndexChanged="SourceRepo_SelectedIndexChanged"   Grid.Column="1"/>
-            </Grid>
-            
-            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series"
+
+            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series" 
                        SearchButtonPressed="ComicSearch_Pressed" />
 
             <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged" EmptyView="NO Data">

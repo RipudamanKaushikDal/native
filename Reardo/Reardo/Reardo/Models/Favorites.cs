@@ -15,5 +15,7 @@ namespace Reardo.Models
         public  Uri CoverImage { get; set; }
 
         public Uri SeriesUri { get; set; }
+
+        public string Progress { get; set; }
     }
 }

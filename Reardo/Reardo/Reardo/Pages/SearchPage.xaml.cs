@@ -19,11 +19,10 @@ namespace Reardo.Pages
         public SearchPage()
         {
             InitializeComponent();
-            SourceRepo.ItemsSource = Sources;
         }
 
         public ObservableCollection<SearchList> SearchResults = new ObservableCollection<SearchList>();
-        public List<string> Sources = new List<string>() { "MangaEden(EN)", "MangaEden(IT)", "MangaNel", "MangaStream" };
+        
         public int RepoNumber { get; set; } = 2;
 
         private async void ComicSearch_Pressed(object sender, EventArgs e)
@@ -50,11 +49,6 @@ namespace Reardo.Pages
             SearchResults.Clear();
         }
 
-        private void SourceRepo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var picker = (Picker)sender;
-            RepoNumber = picker.SelectedIndex;
-        }
 
         protected override void OnDisappearing()
         {
