@@ -47,7 +47,7 @@ namespace Reardo.ViewModels
 
         public string ChapterCount
         {
-            get => $" /{chaptercount}" ; set
+            get => $" / {chaptercount}" ; set
             {
                 chaptercount = value;
                 OnPropertyChanged(nameof(ChapterCount));

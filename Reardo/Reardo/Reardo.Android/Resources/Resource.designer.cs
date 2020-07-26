@@ -8372,10 +8372,13 @@ namespace Reardo.Droid
 			public const int notify_panel_notification_icon_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int tooltip_frame_dark = 2131165302;
+			public const int reardo_launcher = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int tooltip_frame_light = 2131165303;
+			public const int tooltip_frame_dark = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int tooltip_frame_light = 2131165304;
 			
 			static Drawable()
 			{
@@ -9333,20 +9336,14 @@ namespace Reardo.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F0C0002
-			public const int icon = 2131492866;
-			
-			// aapt resource value: 0x7F0C0003
-			public const int icon_round = 2131492867;
-			
 			// aapt resource value: 0x7F0C0000
 			public const int ic_action_home = 2131492864;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int ic_action_search = 2131492865;
 			
-			// aapt resource value: 0x7F0C0004
-			public const int launcher_foreground = 2131492868;
+			// aapt resource value: 0x7F0C0002
+			public const int reardo_launcher = 2131492866;
 			
 			static Mipmap()
 			{

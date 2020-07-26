@@ -8,12 +8,12 @@
              NavigationPage.HasNavigationBar="False"
             >
     <ContentPage.Content>
-        <Grid  Grid.RowDefinitions ="180,Auto,Auto">
+        <Grid  Grid.RowDefinitions ="190,Auto,Auto">
             
             <Path Fill="MediumVioletRed" Stroke="MediumVioletRed" Aspect="Fill" Data="m217.27021,134.77419l227.99998,0l0,116.15856c-113.99999,0 -113.99999,44.25854 -227.99998,19.11165l0,-135.27021z" Grid.Row="0"/>
             <Label Text="REARDO" FontFamily="Bangers" TextColor="WhiteSmoke" FontSize="Title"  HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" />
             <Label Text="My Collection" FontFamily="Bangers" TextColor="Black" FontSize="Title" HorizontalOptions="Center" Grid.Row="1" />
-            <CollectionView x:Name="FavoritesDisplay" EmptyView="      Add Series" Grid.Row="2" SelectionMode="Single" SelectionChanged="FavoritesDisplay_SelectionChanged">
+            <CollectionView x:Name="FavoritesDisplay" Grid.Row="2" SelectionMode="Single" SelectionChanged="FavoritesDisplay_SelectionChanged">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2"/>
                 </CollectionView.ItemsLayout>

@@ -1,7 +1,5 @@
 @string/appbar_scrolling_view_behavior;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
-adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
-adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\anim\exittoleft.xml
 android.support.design.widget.AppBarLayout;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
@@ -18,15 +16,11 @@ android.support.v7.widget.Toolbar;C:\Users\Ripudaman\Desktop\Native Development\
 android.support.v7.widget.Toolbar;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Release\90\res\layout\toolbar.xml
 attr;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\values\attrs.xml
-background;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
-background;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\90\res\values\colors.xml
 declare-styleable;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\values\attrs.xml
 external-cache-path;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-foreground;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
-foreground;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\layout\bottomtablayout.xml
 item;C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\lp\40\jl\res\values\styles.xml
 item;obj\Release\90\res\values\styles.xml

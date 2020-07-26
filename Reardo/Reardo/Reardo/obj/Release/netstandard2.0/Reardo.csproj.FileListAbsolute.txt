@@ -1,0 +1,17 @@
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\Reardo.deps.json
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\Reardo.dll
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\ref\Reardo.dll
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\Reardo.pdb
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Pages\ComicPages.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Pages\MyCollections.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Pages\SearchPage.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Pages\SeriesDetail.xaml.g.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.AssemblyInfoInputs.cache
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.AssemblyInfo.cs
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.csproj.CoreCompileInputs.cache
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.dll
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\ref\Reardo.dll
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.pdb

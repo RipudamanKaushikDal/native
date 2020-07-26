@@ -7,12 +7,12 @@
              x:Class="Reardo.Pages.SearchPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout >
+        <StackLayout Margin="10" >
 
             <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series" 
                        SearchButtonPressed="ComicSearch_Pressed" />
 
-            <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged" EmptyView="NO Data">
+            <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged" EmptyView="No Data">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
