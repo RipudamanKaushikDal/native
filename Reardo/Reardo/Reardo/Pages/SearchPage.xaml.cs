@@ -2,11 +2,8 @@
 using Reardo.Models;
 using Reardo.ViewModels;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -55,6 +52,15 @@ namespace Reardo.Pages
             base.OnDisappearing();
             SearchResults.Clear();
             ComicSearch.Text = String.Empty;
+        }
+
+  
+        private void ComicSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (e.NewTextValue == String.Empty)
+            {
+                SearchResults.Clear();
+            }
         }
     }
 }

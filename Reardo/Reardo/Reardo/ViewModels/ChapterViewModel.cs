@@ -1,11 +1,12 @@
-﻿using AngleSharp.Text;
-using MangaScrapeLib;
+﻿using MangaScrapeLib;
 using Reardo.Models;
 using SQLite;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace Reardo.ViewModels
@@ -16,7 +17,7 @@ namespace Reardo.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         public ISeries SelectedSeries { get; set; }
 
-        public ObservableCollection<ChapterList> ChaptersList { get; set; } = new ObservableCollection<ChapterList>();
+        public ObservableCollection<ChapterList> ChaptersList { get; set; }
 
         string chaptercount;
         string readProgress;
@@ -71,9 +72,9 @@ namespace Reardo.ViewModels
             }
         }
 
-
-        public Command DownloadChapters { get; set; }
-        public Command AddSeries { get; set; }
+      
+        public ICommand DownloadChapters { get; set; }
+        public ICommand AddSeries { get; set; }
 
         public ChapterViewModel()
         {
@@ -84,6 +85,7 @@ namespace Reardo.ViewModels
         {
             SelectedSeries = series;
             Cover = cover;
+            ChaptersList = new ObservableCollection<ChapterList>();
             GetChapters();
             ReadProgress = progress;
             DatabaseIndicator = "Added";
@@ -111,18 +113,10 @@ namespace Reardo.ViewModels
         {
             SelectedSeries = series;
             Cover = SelectedSeries.CoverImageUri;
+            ChaptersList = new ObservableCollection<ChapterList>();
 
-            DownloadChapters = new Command(async () =>
-             {
-                 var totalChapters = await SelectedSeries.GetChaptersAsync();
-                 ChapterCount = totalChapters.Count.ToString();
-                 foreach (var chapter in totalChapters)
-                 {
-                     ChaptersList.Add(new ChapterList() { ChapterName = chapter.Title, UpdatedDate = chapter.Updated, ChapterModel = chapter });
-                 }
-
-             });
-
+            DownloadChapters = new Command(() => GetChapters());
+                           
             AddSeries = new Command(() => AddtoDatabase());
 
         }
@@ -157,7 +151,7 @@ namespace Reardo.ViewModels
            
         }
 
-        private async Task GetChapters()
+         private async Task GetChapters()
         {
             var totalChapters = await SelectedSeries.GetChaptersAsync();
             ChapterCount = totalChapters.Count.ToString();

@@ -71,7 +71,6 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\R
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\res\drawable\reardo_launcher.png
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\uploadflags.txt
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\resolvedassemblies.hash
-C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\link.flag
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\android\assets\AngleSharp.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\android\assets\FormsViewGroup.dll
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\android\assets\FormsViewGroup.pdb
@@ -434,3 +433,4 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\R
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo.Android\obj\Release\90\link.flag

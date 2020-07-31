@@ -11,7 +11,7 @@
     
     
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" >
+        <StackLayout  >
             <CarouselView x:Name="PagesDisplay"  EmptyView="No data" ItemsSource="{Binding ChapterImages}" >
                 <CarouselView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical" ItemSpacing="3" />

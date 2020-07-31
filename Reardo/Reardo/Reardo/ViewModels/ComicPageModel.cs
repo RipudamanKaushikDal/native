@@ -33,9 +33,11 @@ namespace Reardo.ViewModels
             foreach (var page in pagelist)
             {
                 var imagebytes = await page.GetImageAsync();
-                
-                ImageSource img = StreamImageSource.FromStream(() => new MemoryStream(imagebytes));
+                ImageSource img = ImageSource.FromStream(() => new MemoryStream(imagebytes));
                 ChapterImages.Add(new ChapterPages() { PageImage = img });
+
+
+             
             }
         }
             

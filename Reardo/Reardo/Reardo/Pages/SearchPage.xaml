@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout Margin="10" >
 
-            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series" 
+            <SearchBar x:Name="ComicSearch" Placeholder="Enter your favorite series" TextChanged="ComicSearch_TextChanged"  
                        SearchButtonPressed="ComicSearch_Pressed" />
 
             <CollectionView x:Name="SearchDisplay" SelectionMode="Single" SelectionChanged="SearchDisplay_SelectionChanged" EmptyView="No Data">
