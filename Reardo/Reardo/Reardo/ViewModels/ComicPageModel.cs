@@ -31,7 +31,7 @@ namespace Reardo.ViewModels
             {
                 ImagesList.Add(Task.Run(async () => await GetImages(page)));
             }
-            Task.WaitAll(ImagesList.ToArray());
+            Task.WhenAll(ImagesList.ToArray());
 
         }
 

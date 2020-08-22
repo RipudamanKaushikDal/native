@@ -20,7 +20,6 @@ C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\bin\Re
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\Reardo.dll
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\ref\Reardo.dll
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\bin\Release\netstandard2.0\Reardo.pdb
-C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Reardo.csprojAssemblyReference.cache
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Release\netstandard2.0\Pages\ComicPages.xaml.g.cs

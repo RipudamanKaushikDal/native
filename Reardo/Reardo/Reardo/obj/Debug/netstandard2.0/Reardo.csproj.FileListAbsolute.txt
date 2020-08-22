@@ -32,7 +32,6 @@ C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\net
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.pdb
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.csproj.CoreCompileInputs.cache
 C:\Users\Ripudaman\Desktop\Native Development\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Reardo.csprojAssemblyReference.cache
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Ripudaman\Desktop\Native Development\native\Reardo\Reardo\Reardo\obj\Debug\netstandard2.0\Pages\ComicPages.xaml.g.cs

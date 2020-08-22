@@ -86,11 +86,22 @@ namespace Reardo.ViewModels
             SelectedSeries = series;
             Cover = cover;
             ChaptersList = new ObservableCollection<ChapterList>();
-            GetChapters();
+            var totalChapters = Task.Run(async () => await SelectedSeries.GetChaptersAsync()).Result;
             ReadProgress = progress;
             DatabaseIndicator = "Added";
-            ShowTrack = "Track";
-            DownloadChapters = new Command(() => SaveProgress(seriesID));
+            DownloadChapters = new Command(() => { 
+                if (ShowTrack == "Track")
+                {
+                    SaveProgress(seriesID);
+                }
+                else
+                {
+                    GetChapters(totalChapters);
+                    ShowTrack = "Track";
+                }
+                      
+            });
+
             AddSeries = new Command(() => {
                 if (DatabaseIndicator == "Added")
                 {
@@ -114,8 +125,8 @@ namespace Reardo.ViewModels
             SelectedSeries = series;
             Cover = SelectedSeries.CoverImageUri;
             ChaptersList = new ObservableCollection<ChapterList>();
-
-            DownloadChapters = new Command(() => GetChapters());
+            var totalChapters = Task.Run(async () =>  await SelectedSeries.GetChaptersAsync()).Result;
+            DownloadChapters = new Command(() => GetChapters(totalChapters));
                            
             AddSeries = new Command(() => AddtoDatabase());
 
@@ -151,9 +162,9 @@ namespace Reardo.ViewModels
            
         }
 
-         private async Task GetChapters()
+         private void GetChapters(IReadOnlyList<IChapter> totalChapters)
         {
-            var totalChapters = await SelectedSeries.GetChaptersAsync();
+           
             ChapterCount = totalChapters.Count.ToString();
             foreach (var chapter in totalChapters)
             {
