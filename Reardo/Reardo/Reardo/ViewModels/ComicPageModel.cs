@@ -1,6 +1,7 @@
 ﻿using MangaScrapeLib;
+using MvvmHelpers;
 using Reardo.Models;
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -9,39 +10,48 @@ namespace Reardo.ViewModels
 {
     public class ComicPageModel 
     {
-
+       
 
         public ComicPageModel()
         {
             return;
         }
-        public ObservableCollection<ChapterPages> ChapterImages { get; set; } = new ObservableCollection<ChapterPages>();
+        public ObservableRangeCollection<ChapterPages> ChapterImages { get; set; }
+        public List<Task> ImagesList = new List<Task>();
 
-       
+
         public  ComicPageModel(IChapter chapter)
         {
-           
-            GetImages(chapter);
-         
- 
-        }
 
+       
+            ChapterImages = new ObservableRangeCollection<ChapterPages>();
+            var pagelist = Task.Run(async () => await GetPages(chapter)).Result;
 
-        private async Task GetImages(IChapter chapter)
-        {
-            var pagelist = await chapter.GetPagesAsync();
             foreach (var page in pagelist)
             {
-                var imagebytes = await page.GetImageAsync();
-                ImageSource img = ImageSource.FromStream(() => new MemoryStream(imagebytes));
-                ChapterImages.Add(new ChapterPages() { PageImage = img });
-
-
-             
+                ImagesList.Add(Task.Run(async () => await GetImages(page)));
             }
-        }
-            
+            Task.WaitAll(ImagesList.ToArray());
 
-        
+        }
+
+        public async Task<IReadOnlyList<IPage>> GetPages(IChapter chapter)
+        {
+            var pages = await chapter.GetPagesAsync();
+            return pages;
+        }
+
+        public async Task GetImages(IPage page)
+        {
+            var image = await page.GetImageAsync();
+            ImageSource img = ImageSource.FromStream(() => new MemoryStream(image));
+            ChapterImages.Add(new ChapterPages() { PageImage = img });
+        }
+
+
+
+
+
+
     }
 }

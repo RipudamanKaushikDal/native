@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"AngleSharp.dll",
 		"FormsViewGroup.dll",
 		"MangaScrapeLib.dll",
+		"MvvmHelpers.dll",
 		"Newtonsoft.Json.dll",
 		"Reardo.dll",
 		"SQLite-net.dll",

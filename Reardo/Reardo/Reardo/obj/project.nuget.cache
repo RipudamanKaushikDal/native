@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "d6xcucw/MV3/E9QSCioeU8Vm8bOOW1AqMgz5ZUOJ+BoLlLiM35FoYCIQg4Qhjdsl0V/5de7lrDOawHoO2ZxrFg==",
+  "dgSpecHash": "7SCnFCtxWIqxCk9OPJj7CBgxNtKmpguHytyX7W6HOTtPrlRAVDSeEoQdCkCM5L9RvHbNRQiZ225Msn4CIP+pnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
+  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ripudaman\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\mangascrapelib\\4.7.10\\mangascrapelib.4.7.10.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -19,6 +20,7 @@
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512"
   ],

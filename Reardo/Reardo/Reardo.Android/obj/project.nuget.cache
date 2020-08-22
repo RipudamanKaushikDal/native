@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eWg7X51djmqHRYgpPxxsBY0sPDmyB7SfrvAULLAt5zNLn6lwfSHi6KogMQMiov55DEs6AnD0VYWJO+puZo1EXA==",
+  "dgSpecHash": "8lsuYywGRAOCuJ4mS7e0GNNp67Y1bn3K5AngeNbyNNlamH5C99a0B0fJuAJEiU5ifgoa3VcVlYVq/+19Bzh47A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ripudaman\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\mangascrapelib\\4.7.10\\mangascrapelib.4.7.10.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\Ripudaman\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -59,6 +60,7 @@
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ripudaman\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\xamarin.androidx.activity\\1.0.0.1\\xamarin.androidx.activity.1.0.0.1.nupkg.sha512",
