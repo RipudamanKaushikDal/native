@@ -1,8 +1,0 @@
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\bin\Debug\netstandard2.0\Manga Reader.deps.json
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\bin\Debug\netstandard2.0\Manga Reader.dll
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\Manga Reader.csprojAssemblyReference.cache
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\SearchPage.xaml.g.cs
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\Manga Reader.AssemblyInfoInputs.cache
-C:\Users\Ripudaman\Desktop\Native Development\Manga Reader\Manga Reader\Manga Reader\obj\Debug\netstandard2.0\Manga Reader.AssemblyInfo.cs

@@ -17,7 +17,6 @@ namespace Reardo.ViewModels
             return;
         }
         public ObservableRangeCollection<ChapterPages> ChapterImages { get; set; }
-        public List<Task> ImagesList = new List<Task>();
 
 
         public  ComicPageModel(IChapter chapter)
@@ -26,14 +25,13 @@ namespace Reardo.ViewModels
        
             ChapterImages = new ObservableRangeCollection<ChapterPages>();
             var pagelist = Task.Run(async () => await GetPages(chapter)).Result;
-
             foreach (var page in pagelist)
             {
-                ImagesList.Add(Task.Run(async () => await GetImages(page)));
+                  Task.Run(async () => await GetImages(page));
             }
-            Task.WhenAll(ImagesList.ToArray());
-
         }
+
+           
 
         public async Task<IReadOnlyList<IPage>> GetPages(IChapter chapter)
         {
@@ -47,9 +45,6 @@ namespace Reardo.ViewModels
             ImageSource img = ImageSource.FromStream(() => new MemoryStream(image));
             ChapterImages.Add(new ChapterPages() { PageImage = img });
         }
-
-
-
 
 
 

@@ -6,11 +6,11 @@
              xmlns:pages="clr-namespace:Reardo.Pages;assembly=Reardo"
              mc:Ignorable="d"
              x:Class="Reardo.MainPage"
-             BarBackgroundColor="MediumVioletRed"
+             BarBackgroundColor="#2e81f4"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
              android:TabbedPage.BarItemColor="White"
-             android:TabbedPage.BarSelectedItemColor="Orange"
+             android:TabbedPage.BarSelectedItemColor="tan"
              >
 
 

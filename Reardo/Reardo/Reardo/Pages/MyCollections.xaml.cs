@@ -3,8 +3,8 @@ using Reardo.Models;
 using Reardo.ViewModels;
 using SQLite;
 using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -40,6 +40,7 @@ namespace Reardo.Pages
             int objectID = selection.Id;
             string progress = selection.Progress;
             ISeries series = Repositories.GetSeriesFromData(Serieslink, Seriestitle);
+         
             var seriesdetail = new SeriesDetail()
             {
                 BindingContext = new ChapterViewModel(series, CoverImage, objectID, progress)
@@ -47,5 +48,8 @@ namespace Reardo.Pages
        
             await Navigation.PushAsync(seriesdetail);
         }
+
+            
+        
     }
 }

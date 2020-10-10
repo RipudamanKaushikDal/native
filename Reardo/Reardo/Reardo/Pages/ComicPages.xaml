@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="Reardo.Pages.ComicPages"
              NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#565656"
              >
 
     

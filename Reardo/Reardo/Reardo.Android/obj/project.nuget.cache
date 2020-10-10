@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8lsuYywGRAOCuJ4mS7e0GNNp67Y1bn3K5AngeNbyNNlamH5C99a0B0fJuAJEiU5ifgoa3VcVlYVq/+19Bzh47A==",
+  "dgSpecHash": "R1eon+99bmomQmZ6Ang4waAU/LAFp0kSsCEtL/s6WFlrEWnV4U7cFYsljjB28paLeWbH5i08V1HJ+zzGDhOpYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+  "projectFilePath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ripudaman\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ripudaman\\.nuget\\packages\\mangascrapelib\\4.7.10\\mangascrapelib.4.7.10.nupkg.sha512",

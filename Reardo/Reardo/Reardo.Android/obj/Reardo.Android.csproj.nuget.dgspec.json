@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj": {}
+    "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj": {
+    "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
         "projectName": "Reardo.Android",
-        "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
+        "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\Reardo.Android.csproj",
         "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo.Android\\obj\\",
+        "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
-                "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj"
+              "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
+                "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
+    "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
+        "projectUniqueName": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
         "projectName": "Reardo",
-        "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
+        "projectPath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\Reardo.csproj",
         "packagesPath": "C:\\Users\\Ripudaman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Native Development\\native\\Reardo\\Reardo\\Reardo\\obj\\",
+        "outputPath": "C:\\Users\\Ripudaman\\Desktop\\Development\\native\\Reardo\\Reardo\\Reardo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -141,7 +141,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
